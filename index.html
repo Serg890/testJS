@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container-fluid">
+            <h2>Task 1</h2>
+            <form action="" name="form1">
+                <input type="text" name="sum" id="" placeholder="Сума">
+                <input type="text" name="price" id="" placeholder="Ціна">
+                <input type="button" id="" name="returnBtn" value="Повернути решту">
+                <p>Ваша решта:</p>
+                <input name="result" type="text" value="">
+                <p>По номіналу:</p>
+                <input type="text" name="nominals" value="">
+            </form>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h2>Task 2</h2>
+        <button class="modalBtn">Open Modal Window</button>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h2>Task 3</h2>
+        <div class="formTable">
+            <form action="" name="f1">
+                <input type="text" name="fName" placeholder="Введіть ім'я..." value="">
+                <input type="text" name="lName" placeholder="Введіть прізвище...">
+                <input type="text" name="email" placeholder="Введіть e-mail..."><br>
+                <input type="button" name="addBtn" id="" value="добавити">
+                <input type="button" style="display: none;" name="saveBtn" onclick="save()" value="Зберегти">
+            </form>
+        </div>
+        <table>
+            <thead>
+                <th>№</th>
+                <th>Дата</th>
+                <th>Імя</th>
+                <th>Прізвище</th>
+                <th>E-mail</th>
+                <th>Видалити</th>
+                <th>Редагувати</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
